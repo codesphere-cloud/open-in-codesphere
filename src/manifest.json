@@ -1,0 +1,26 @@
+{
+  "name": "Open in Codesphere",
+  "description": "Open a GitHub repository in Codesphere",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "offline_enabled": true,
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://github.com/*"],
+      "css": ["styles.css"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "48": "/assets/icons/48.png",
+    "128": "/assets/icons/128.png"
+  }
+}

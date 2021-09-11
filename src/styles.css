@@ -1,0 +1,12 @@
+:root {
+    --purple: #EC75FF;
+    --dark-purple: #DF1CFF;
+}
+
+.codesphere-button {
+    background-color: var(--dark-purple) !important;
+}
+
+.codesphere-button:hover {
+    background-color: var(--purple) !important;
+}

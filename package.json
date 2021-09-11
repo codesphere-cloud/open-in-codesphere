@@ -1,0 +1,13 @@
+{
+  "name": "open-in-codesphere",
+  "version": "0.0.1",
+  "description": "Chrome Extension that allows to open a GitHub repository in Codesphere.",
+  "keywords": [
+    "google",
+    "chrome",
+    "github",
+    "extension"
+  ],
+  "author": "Roman Frolov",
+  "license": "MIT"
+}
